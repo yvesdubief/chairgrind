@@ -20,7 +20,7 @@ I highly recommend codecademy or datacamp python tutorial. I would recommend a C
 
 If you ask nicely, I will help. The Chair job is painful enough, we might as well help each other!
 
-On that note, a big thank you to the UVM ME faculty and staff for their support and to the Chairs, Dean and Staff of the College of Engineering and Mathematical Sciences for their help in navigating this chair job thingy.
+On that note, a big thank you to the UVM ME faculty and staff for their support and to the chairs, Dean and staff of the College of Engineering and Mathematical Sciences for their help in navigating this chair job thingy.
 
 ## Available tools
 <ul>
