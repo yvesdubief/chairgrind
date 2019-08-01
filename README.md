@@ -25,5 +25,6 @@ On that note, a big thank you to the UVM ME faculty and staff for their support 
 ## Available tools
 <ul>
   <li> <a href="https://github.com/yvesdubief/chairgrind/tree/master/ESD"> Email bot to nag faculty about expanded section description</a>
+  <li> <a href="https://github.com/yvesdubief/chairgrind/tree/master/Syllabus"> Maker of Syllabus using pylatex</a>
   </li>
   </ul>
