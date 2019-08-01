@@ -1,0 +1,156 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[tmargin=1in,lmargin=1in,rmargin=1in]{geometry}%
+\usepackage{enumitem}%
+%
+%
+%
+\begin{document}%
+\normalsize%
+\section*{ME 144 A Heat Transfer}%
+\label{sec:ME 144 A Heat Transfer}%
+\begin{tabular}{lll}%
+Semester&Spring 2020&\\%
+Classroom&Lafayette 207&\\%
+Meeting time&8:30{-}{-}9:45&\\%
+Instruction&Thor, New Asgard 201 C, drthor@uvm.edu&Office hours: T 1:00{-}{-}2:00\\%
+&Peter Quill, Earth 512 A, star{-}lord@uvm.edu&Office hours: M 8:00{-}9:00\\%
+&&\\%
+TA(s)&Loki, Asgard 201 D, iamloki@uvm.edu&Office hours: W 1:00{-}{-}2:00\\%
+&Bruce Banner, Votey 001F, iamhulk@uvm.edu&Office hours: F 8:00{-}{-}9:00\\%
+&&\\%
+Prerequisites&ME143&\\%
+&&\\%
+Credit hours&3&\\%
+&&\\%
+Textbook&Fundamentals of Heat and Mass Transfer 8th Edition&\\%
+&By Bergman et al., Wiley&\\%
+&&\\%
+Software&Python 3 (Anaconda distribution)&\\%
+&git&\\%
+\end{tabular}%
+\subsection*{Course description}%
+\label{subsec:Course description}%
+
+%
+One{-} and two{-}dimensional steady and unsteady thermal conduction;                     natural and forced internal and external convection;                     thermal radiation; heat exchangers;                     boiling and condensation heat transfer%
+\subsection*{Course objectives}%
+\label{subsec:Course objectives}%
+
+%
+\begin{enumerate}[label=\alph*)]%
+\item%
+To demonstrate the ability to understand and identify relevant modes of heat transfer in physical problems.%
+\item%
+To demonstrate the ability to analyze 1{-}D and multi{-}dimensional steady{-}state heat conduction in bodies with various thermal boundary conditions and with possibly multiple component materials.%
+\item%
+To demonstrate the ability to model and solve unsteady 0{-}D (lumped capacitance method) and 1{-}D heat transfer problems; effects of thermal boundary conditions.%
+\item%
+To demonstrate the ability to model and solve 1D unsteady heat transfer involving phase change (melting, solidification)%
+\item%
+To demonstrate the ability to understand the mechanisms of convective heat transfer and to demonstrate the ability to utilize analytical and empirical relations for the solution of engineering heat transfer problems.%
+\item%
+To demonstrate the ability to understand and apply basic numerical methods (finite difference, finite volume) to solve steady and unsteady heat transfer problems.%
+\end{enumerate}%
+\subsection*{Grade distribution and assessment}%
+\label{subsec:Grade distribution and assessment}%
+
+%
+\begin{tabular}{|l|c|}%
+\hline%
+Homework&10 \%\\%
+Quizzes&20 \%\\%
+Midterm grade&30 \%\\%
+Project&40 \%\\%
+\hline%
+\end{tabular}%
+\linebreak%
+Notes: (i) Midterm grade = 0.15{[}lowest midterm grade{]} + 0.85{[}highest midterm grade{]}. (ii) The instructor(s) may assign an individual or team project as a midterm exam%
+\subsection*{Individual question grading scheme (over 10 points)}%
+\label{subsec:Individual question grading scheme (over 10 points)}%
+
+%
+\begin{tabular}{|c|l|}%
+\hline%
+10&Correct answer\\%
+8&Answer uses the correct physics and/or mathematics but has one small error (e.g. typo)\\%
+6&One significant error violating the physics and/or mathematics of the problem.\\%
+4&Two significant errors violating the physics and/or mathematics of the problem.\\%
+2&An attempt to answer.\\%
+0&Self{-}explanatory.\\%
+\hline%
+\end{tabular}%
+\subsection*{Letter grade distribution}%
+\label{subsec:Letter grade distribution}%
+
+%
+\begin{tabular}{|cl||cl|}%
+\hline%
+100.0{-}{-}93.00&A&73.00{-}{-}76.99&C\\%
+\hline%
+90.00{-}{-}92.99&A{-}&70.00{-}{-}72.99&C{-}\\%
+\hline%
+87.00{-}{-}89.99&B+&67.00{-}{-}69.99&D+\\%
+\hline%
+83.00{-}{-}86.99&B&63.00{-}{-}66.99&D\\%
+\hline%
+80.00{-}{-}82.99&B{-}&60.00{-}{-}62.99&D{-}\\%
+\hline%
+77.00{-}{-}79.99&C+&59.99{-}{-}00.00&F\\%
+\hline%
+\end{tabular}%
+\subsection*{Policies}%
+\label{subsec:Policies}%
+
+%
+\subsubsection*{Late assignment}%
+\label{ssubsec:Late assignment}%
+
+%
+Late assignments are bad!%
+\subsection*{Tentative schedule}%
+\label{subsec:Tentative schedule}%
+
+%
+\begin{tabular}{|c|p{5.5in}|}%
+\hline%
+Week&Content\\%
+\hline%
+1&Thermodynamics, Modes of heat transfer, heat transfer coefficients\\%
+\hline%
+2&Conduction, Fourier's law,  thermal properties of matter, heat equation, boundary conditions, temperature distribution\\%
+\hline%
+3&1D Conduction, Planar system thermal resistance, composite wall, contact resistance, thermal energy generation\\%
+\hline%
+4&1D conduction,Radial systems, extended surfaces\\%
+\hline%
+5&Exam, 2D conduction, Finite volume\\%
+\hline%
+6&2D conduction + Transient conduction,Linear Algebra and time{-}stepping methods, Analytical solutions\\%
+\hline%
+7&Conduction wrap up\\%
+\hline%
+8&Convection, Review of fluid mechanics, intro to convection, External flows\\%
+\hline%
+9&Convection, External flows (cont'ed), Internal flows\\%
+\hline%
+10&Exam (in class), Convection, Internal flows\\%
+\hline%
+11&Convection, Internal flows, Free and forced convection\\%
+\hline%
+12&Free convection, Boiling and Condensation\\%
+\hline%
+13&Boiling and condensation, Radiation\\%
+\hline%
+14&Radiation\\%
+\hline%
+15&Review\\%
+\hline%
+\end{tabular}
+
+%
+\end{document}
